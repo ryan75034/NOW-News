@@ -1,0 +1,73 @@
+/* 
+    GLOBAL STYLES
+*/
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    margin: 0 auto;
+    width: 100vw;
+    max-width: 1500px;
+    } 
+
+    hr {
+        width: 100%;
+        opacity: 0.5;
+    }
+
+/* 
+    HEADING 
+*/
+
+header {
+    background: rgb(206, 206, 206);
+    height: 110px;
+}
+
+h1 {
+    padding: 1rem 0 0 1rem;
+    margin: 0;
+}
+
+header p {
+    font-size: 1rem;
+    margin: 0;
+    padding: 0 0 0 1rem;
+}
+
+.search-sign-in {
+    position: absolute;
+    display: flex;
+    width: 400px;
+    top: 1rem;
+    left: 65%;
+}  
+
+.user-sign-in {
+    font-size: .9rem;
+    align-content: center;
+    display: flex;
+    align-items: center;
+    padding-left: .5rem;
+}
+
+.heading-bar {
+
+}
+
+ul {
+    list-style: none;
+}
+
+nav ul {
+    display: flex;
+    font-size: 1rem;
+    flex-direction: row;
+    flex-wrap: wrap;    
+}
+
+li {
+    padding-left: 1rem;
+}
+
