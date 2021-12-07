@@ -21,43 +21,50 @@ body {
 */
 
 header {
+    position: relative;
     background: rgb(206, 206, 206);
-    height: 110px;
+    color: white;
+    height: 50px;
 }
 
 h1 {
-    padding: 1rem 0 0 1rem;
+    padding: .5rem 0 0 1rem;
     margin: 0;
 }
 
 header p {
-    font-size: 1rem;
+    font-size: .7rem;
     margin: 0;
     padding: 0 0 0 1rem;
 }
 
 .search-sign-in {
-    position: absolute;
     display: flex;
-    width: 400px;
-    top: 1rem;
-    left: 65%;
+    width: 300px;
+    position: absolute;
+    top: 22px;
+    right: 0px;
+    padding: 0 2rem 0 0;
 }  
+
+/* 
+    NAVIGATION BAR
+*/
+
+.heading-bar {
+    max-width: 860px;
+}
 
 .user-sign-in {
     font-size: .9rem;
-    align-content: center;
     display: flex;
-    align-items: center;
+    flex-direction: column;
     padding-left: .5rem;
-}
-
-.heading-bar {
-
 }
 
 ul {
     list-style: none;
+    
 }
 
 nav ul {
@@ -67,7 +74,11 @@ nav ul {
     flex-wrap: wrap;    
 }
 
-li {
+a {
+    text-decoration: none;
     padding-left: 1rem;
 }
+
+
+
 
